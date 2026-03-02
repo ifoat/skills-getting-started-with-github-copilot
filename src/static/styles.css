@@ -136,6 +136,67 @@ button:hover {
   display: none;
 }
 
+.participants-section {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.participants-section strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #1a237e;
+  font-size: 0.95em;
+}
+
+.participants-list {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.participants-list li {
+  padding: 8px 0;
+  font-size: 0.9em;
+  color: #555;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.participant-email {
+  flex: 1;
+}
+
+.participants-list li em {
+  font-style: italic;
+  color: #999;
+}
+
+.delete-btn {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s, transform 0.2s;
+  flex-shrink: 0;
+}
+
+.delete-btn:hover {
+  background-color: #c62828;
+  transform: scale(1.1);
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
